@@ -1,3 +1,15 @@
+.container1{
+  font-size: 22px;
+  font-weight: 800;
+  font-family: serif;
+  line-height: 1.2;
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+  word-break: keep-all;
+} 
+
+
 h1 { 
   /* 글자 색상 빨산색으로 변경 */
   color: red;
