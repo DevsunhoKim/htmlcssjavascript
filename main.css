@@ -1,3 +1,12 @@
+.container2{
+width: 300px;
+height: 150px;
+background-color: royalblue;
+background-image: url("https://heropy.blog/css/images/logo.png");
+background-size: 100px;
+background-repeat: no-repeat;
+background-position: center;
+}
 .container1{
   font-size: 22px;
   font-weight: 800;
@@ -71,4 +80,46 @@ a:active {
   border-radius: 30px;
   box-shadow: 10px 10px 0 rgba(0,0,0,0.5);
   
+}
+
+
+.container3{
+  height: 200px;
+  border: 4px solid black;
+  /* 가로로 정렬 */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  /* item 사이의 거리 */
+  gap: 10px;
+}
+
+.container3 .item1{
+  width: 100px;
+  height: 100px;
+  background-color: royalblue;
+  display: flex;
+  /* item 수평정렬 */
+  justify-content: center;
+  /* item 수직 정렬 */
+  align-items: center;
+  color: white;
+  font-size: 30px;
+}
+
+.container4{
+  height: 100px;
+  border: 4px solid black;
+}
+
+.container4 .item2{
+  width: 100px;
+  height: 100px;
+  background-color: aquamarine;
+  transform: 
+    translateX(50px) 
+    translateY(50px) 
+    rotate(45deg) 
+    scale(0.7);
+    
 }
