@@ -165,3 +165,26 @@ a:active {
     height: 300px;
   }
 }
+
+.btn {
+  width: 150px;
+  height: 40px;
+  background-color: cadetblue;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn:hover{
+  background-color: green;
+  
+}
+.btn span {
+  font-size: 22px;
+  font-weight: 700;;
+  color: white;
+}
